@@ -8,14 +8,14 @@ metadata:
     # change this accordingly to your model output/classes
     spec: |
       [
-        {"id": 0, "name": "tench"},
-        {"id": 1, "name": "goldfish"},
-        .
-        .
-        .
-        .
-        {"id": 998, "name": "ear"},
-        {"id": 999, "name": "toilet paper"}
+        {"id": 0, "name": "face_nomask"},
+        {"id": 1, "name": "face_wmask"},
+        {"id": 2, "name": "hand_noglove"},
+        {"id": 3, "name": "hand_wglove"},
+        {"id": 4, "name": "head_nohelmet"},
+        {"id": 5, "name": "head_whelmet"},
+        {"id": 6, "name": "person"},
+        {"id": 6, "name": "vest"}
       ]
 spec:
   description: custom-model-yolov8
